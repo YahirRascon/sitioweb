@@ -1,0 +1,103 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: rgb(24, 24, 70);
+    color:white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgb(197, 66, 248);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos específicos */
+section {
+    margin-bottom: 20px;
+}
+.imagen{
+    max-width: 300px;
+    height: auto;
+}
+.imagen{
+    width: 200px;
+    height: 150px;
+}
+footer button {
+    background-color: #4CAF50; /* Cambia el color de fondo del botón a verde */
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 10px 20px; /* Añade relleno al botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 4px; /* Añade esquinas redondeadas al botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+}
+
+/* Estilos para el contenido */
+.contenido {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+
+
+/* Estilos para el texto del primer año */
+.contenido p {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 24px; /* Ajusta el tamaño de fuente */
+}
+
+/* Estilos para el título "Plan de Estudios" en la página "Sobre Nosotros" */
+.sobre-nosotros-titulo {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 36px; /* Ajusta el tamaño de fuente */
+}
+
+.imagen-sobre-nosotros {
+    max-width: 1000px; /* Ancho máximo de la imagen */
+    height: 100% ; /* Altura automática para mantener la proporción */
+    display: block; /* Convertir la imagen en un bloque */
+    margin: 20% ; /* Centra la imagen horizontalmente */
+}
+
+/* Centrar contenido en la página de blog */
+#blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#blog h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#blog article {
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+#blog p {
+    text-align: justify;
+}
